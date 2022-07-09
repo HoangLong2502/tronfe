@@ -1,0 +1,18 @@
+@import '../../../global/base/variables';
+
+.nav__container {
+
+    
+    & .nav__body {
+        gap: 40px;
+    }
+
+    & .nav__action {
+        right: 1em;
+        top: 0.75em;
+    }
+}
+
+.z100 {
+    z-index: 10000;
+}

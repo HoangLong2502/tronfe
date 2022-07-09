@@ -1,0 +1,54 @@
+.black { color: $c-black; }
+.white { color: $c-white; }
+
+.second { color: $c-second; }
+.blue { color: $c-blue; }
+
+.primary {color: $c-primary};
+.primary-1 {color: $c-primary-1}
+
+.brown { color: $c-primary;}
+.brown-1 { color: $c-brown-1;}
+.orange { color: $c-orange; }
+.green { color: $c-green; }
+.red-2-text { color: $c-red-2-text; }
+.red-text { color: $c-red-text; }
+.red-1 { color: $c-red-1-text; }
+.red { color: $c-error; }
+.gray { color: $c-gray; }
+.gray-5 { color: $c-gray-5; }
+.yellow { color: $c-yellow;}
+
+/* Background Colors */
+.bg-primary { background-color: $c-primary;};
+.bg-primary-1 { background-color: $c-primary-1;}
+
+.bg-black { background-color: $c-black; }
+.bg-white-1 { background-color: $c-white-1; }
+.bg-gray { background-color: $c-system; }
+.bg-gray-1 { background-color: $c-system; }
+.bg-gray-2 { background-color: $c-gray-2; }
+.bg-gray-3 { background-color: $c-gray-3; }
+.bg-red { background-color: $c-lred;}
+.bg-red-1 { background: $c-red-1; }
+.bg-blue { background-color: $c-lblue;}
+.bg-blue-1 { background-color: $c-blue;}
+.bg-orange { background-color: $c-lorange;}
+.bg-green { background-color: $c-lgreen;}
+.bg-purple { background-color: $c-lpurple;}
+.bg-yellow { background-color: $c-lyellow;}
+
+// shadow
+.shadow { 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+// text
+
+.text-red-linear {
+    background: $c-red-1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
