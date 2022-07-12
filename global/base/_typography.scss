@@ -345,6 +345,18 @@ p {
   border-radius: 8px;
 }
 
+.border-radius-m {
+  border-radius: 12px;
+}
+
+.border-radius-l {
+  border-radius: 16px;
+}
+
+.border-radius-xl {
+  border-radius: 31px;
+}
+
 .border {
   border: 1px solid $c-border;
 }
@@ -355,6 +367,10 @@ p {
 
 .border-yellow {
   border: 1px solid $c-yellow;
+}
+
+.border-primary {
+  border: 1px solid $c-primary;
 }
 
 .border-blue {

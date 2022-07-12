@@ -17,11 +17,10 @@
   .carousel-cell-image {
     display: block;
     height: 600px;
-    margin: 0 auto;
     width: 464px;
     opacity: 1;
     -webkit-transition: opacity 0.4s;
-            transition: opacity 0.4s;
+    transition: opacity 0.4s;
 }
 
 .carousel-cell:first-of-type {

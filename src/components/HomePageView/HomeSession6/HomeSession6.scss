@@ -1,0 +1,24 @@
+
+
+.session-6__logo {
+    top: 0;
+    left: calc(50% - 244px/2);
+}
+
+.carousel-cell {
+    counter-increment: gallery-cell;
+    width: 342px;
+    height: fit-content;
+    margin-left: 1em;
+
+  };
+
+  
+  .carousel-cell-image {
+    display: block;
+    height: 340px;
+    width: 342px;
+    opacity: 1;
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}

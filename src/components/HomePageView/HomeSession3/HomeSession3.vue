@@ -1,5 +1,5 @@
 @<template>
-    <div class="session-3__container f fdc pl150 relative pt5 pb5 bg-primary-1">
+    <div class="session-3__container z2 f fdc pl150 relative pt5 pb5 bg-primary-1">
         <div class="session-3__header f jcb aic mb05 pr5">
             <div class="h2 primary">
                 Dịch vụ tại Tròn

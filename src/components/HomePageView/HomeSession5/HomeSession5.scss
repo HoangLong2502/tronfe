@@ -1,0 +1,38 @@
+
+.session-5__left {
+    & img {
+        width: 586px;
+        height: 800px;
+    }
+}
+
+.session-5__right {
+    width: 708px;
+
+    &-slide {
+
+        & .right-slide__lits {
+
+            // & img {
+            //     width: 260px;
+            //     height: 340px;
+            // }
+        }
+    }
+}
+
+.carousel-cell {
+    counter-increment: gallery-cell;
+    width: 260px;
+    height: 560px;
+    margin-left: 1em;
+}
+
+.carousel-cell-image {
+    display: block;
+    width: 260px;
+    height: 340px;
+    opacity: 1;
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
