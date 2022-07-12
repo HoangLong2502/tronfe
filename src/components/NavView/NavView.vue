@@ -22,7 +22,8 @@
                         class="icon--arrown ml05"></div>
             </router-link>
             <div class="icon--tron"></div>
-            <div
+            <router-link
+                :to=" { name: 'page', params: { path: item.path } }"
                 class="cursor"
                 v-for="(item, key) in NavItemRight"
                 :key="key">
@@ -36,7 +37,7 @@
                         v-else>
                             {{ item.title }}
                     </div>
-            </div>
+            </router-link>
         </div>
 
         <div class="nav__action absolute f aic">
@@ -76,7 +77,7 @@ export default {
                 {
                     title: "Gói dịch vụ doanh nghiệp",
                     dropDown: false,
-                    path: 'business-service '
+                    path: 'business-service'
                 },
                 {
                     title: "Tin Tức",

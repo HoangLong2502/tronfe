@@ -3,12 +3,39 @@
   font-family: DFVN Big Bang;
 }
 
+@font-face {
+  src: url('/global/base/font/Noto_Sans/NotoSans-Bold.ttf');
+  font-family: Noto_San_Bold;
+}
+
+@font-face {
+  src: url('/global/base/font/Noto_Sans/NotoSans-Medium.ttf');
+  font-family: Noto_San_Medium;
+}
+
+@font-face {
+  src: url('/global/base/font/Noto_Sans/NotoSans-Regular.ttf');
+  font-family: Noto_San_Regular;
+}
+
 %f-primary {
   font-family: 'MyWebFont', Fallback, sans-serif;
 }
 
 %f-primary-1 {
   font-family: 'DFVN Big Bang';
+}
+
+%f-primary-2 {
+  font-family: 'Noto_San_Bold';
+}
+
+%f-primary-3 {
+  font-family: 'Noto_San_Medium';
+}
+
+%f-primary-4 {
+  font-family: 'Noto_San_Regular';
 }
 
 %anti-alias {
@@ -85,7 +112,7 @@ h3 {
 }
 
 %h4 {
-  @extend %f-primary;
+  @extend %f-primary-2;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -98,7 +125,7 @@ h4 {
 }
 
 %h5 {
-  @extend %f-primary;
+  @extend %f-primary-3;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -111,7 +138,7 @@ h5 {
 }
 
 %h6 {
-  @extend %f-primary;
+  @extend %f-primary-4;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -124,7 +151,7 @@ h6 {
 }
 
 %h7 {
-  @extend %f-primary;
+  @extend %f-primary-4;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -137,7 +164,7 @@ h7 {
 }
 
 %h8 {
-  @extend %f-primary;
+  @extend %f-primary-2;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -182,7 +209,7 @@ p2 {
 }
 
 %p3 {
-  @extend %f-primary;
+  @extend %f-primary-2;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -195,7 +222,7 @@ p3 {
 }
 
 %p4 {
-  @extend %f-primary;
+  @extend %f-primary-3;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -220,7 +247,7 @@ p5 {
 }
 
 %p6 {
-  @extend %f-primary;
+  @extend %f-primary-4;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -233,7 +260,7 @@ p6 {
 }
 
 %p7 {
-  @extend %f-primary;
+  @extend %f-primary-2;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
